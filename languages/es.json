@@ -1,3 +1,152 @@
 {
-    
+    "title": "Tienda de Zapatos",
+    "productos":[
+        {
+            "imagen": "./imagen/712tEKMrhRL._AC_SX500_.jpg",
+            "name": "Tenis adidas",
+            "precio": "$90.00",
+            "button": "Agregar al Carrito",
+            "category": "tenis"
+        },
+        {
+            "imagen": "./imagen/712tEKMrhRL._AC_SX500_.jpg",
+            "name": "Tenis adidas",
+            "precio": "$90.00",
+            "button": "Agregar al Carrito",
+            "category": "tenis"
+        },
+        {
+            "imagen": "./imagen/nike-shoes.jpg",
+            "name": "Zapatos para Correr Nike",
+            "precio": "$120.00",
+            "button": "Agregar al Carrito",
+            "category": "Running"
+        },
+        {
+            "imagen": "./imagen/puma-sneakers.jpg",
+            "name": "Zapatillas Puma",
+            "precio": "$80.00",
+            "button": "Agregar al Carrito",
+            "category": "Casual"
+        },
+        {
+            "imagen": "./imagen/adidas-football.jpg",
+            "name": "Tacos de Fútbol Adidas",
+            "precio": "$75.00",
+            "button": "Agregar al Carrito",
+            "category": "Football"
+        },
+        {
+            "imagen": "./imagen/new-balance-walking.jpg",
+            "name": "Zapatos para Caminar New Balance",
+            "precio": "$70.00",
+            "button": "Agregar al Carrito",
+            "category": "Walking"
+        },
+        {
+            "imagen": "./imagen/reebok-crossfit.jpg",
+            "name": "Zapatos Reebok Crossfit",
+            "precio": "$110.00",
+            "button": "Agregar al Carrito",
+            "category": "Crossfit"
+        },
+        {
+            "imagen": "./imagen/converse-casual.jpg",
+            "name": "Zapatillas Casuales Converse",
+            "precio": "$65.00",
+            "button": "Agregar al Carrito",
+            "category": "Casual"
+        },
+        {
+            "imagen": "./imagen/asics-volleyball.jpg",
+            "name": "Zapatos de Voleibol Asics",
+            "precio": "$95.00",
+            "button": "Agregar al Carrito",
+            "category": "Volleyball"
+        },
+        {
+            "imagen": "./imagen/sketchers-walking.jpg",
+            "name": "Zapatos para Caminar Sketchers",
+            "precio": "$55.00",
+            "button": "Agregar al Carrito",
+            "category": "Walking"
+        },
+        {
+            "imagen": "./imagen/under-armour-basketball.jpg",
+            "name": "Zapatos de Baloncesto Under Armour",
+            "precio": "$100.00",
+            "button": "Agregar al Carrito",
+            "category": "Basketball"
+        },
+        {       
+            "imagen": "./imagen/saucony-running.jpg",
+            "name": "Zapatos para Correr Saucony",
+            "precio": "$85.00",
+            "button": "Agregar al Carrito",
+            "category": "Running"
+        },
+        {
+            "imagen": "./imagen/merrell-hiking.jpg",
+            "name": "Botas de Senderismo Merrell",
+            "precio": "$130.00",
+            "button": "Agregar al Carrito",
+            "category": "Hiking"
+        },
+        {
+            "imagen": "./imagen/vans-skate.jpg",
+            "name": "Zapatos de Skate Vans",
+            "precio": "$60.00",
+            "button": "Agregar al Carrito",
+            "category": "Skateboarding"
+        },
+        {
+            "imagen": "./imagen/under-armour-soccer.jpg",
+            "name": "Tacos de Fútbol Under Armour",
+            "precio": "$85.00",
+            "button": "Agregar al Carrito",
+            "category": "Soccer"
+        },
+        {
+            "imagen": "./imagen/brooks-running.jpg",
+            "name": "Zapatos para Correr Brooks",
+            "precio": "$110.00",
+            "button": "Agregar al Carrito",
+            "category": "Running"
+        },
+        {
+            "imagen": "./imagen/salomon-trail.jpg",
+            "name": "Zapatos de Trail Running Salomon",
+            "precio": "$140.00",
+            "button": "Agregar al Carrito",
+            "category": "Trail Running"
+        },
+        {
+            "imagen": "./imagen/asics-tennis.jpg",
+            "name": "Zapatos de Tenis Asics",
+            "precio": "$95.00",
+            "button": "Agregar al Carrito",
+            "category": "Tennis"
+        },
+        {
+            "imagen": "./imagen/nike-golf.jpg",
+            "name": "Zapatos de Golf Nike",
+            "precio": "$110.00",
+            "button": "Agregar al Carrito",
+            "category": "Golf"
+        },
+        {
+            "imagen": "./imagen/converse-high-top.jpg",
+            "name": "Zapatillas Altas Casuales Converse",
+            "precio": "$70.00",
+            "button": "Agregar al Carrito",
+            "category": "Casual"
+        },
+        {
+            "imagen": "./imagen/under-armour-football.jpg",
+            "name": "Tacos de Fútbol Americano Under Armour",
+            "precio": "$80.00",
+            "button": "Agregar al Carrito",
+            "category": "Football"
+        }
+    ]
 }

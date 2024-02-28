@@ -12,13 +12,17 @@ function loadLanguage(lang) {
         createCards(data);
 
         const idiomActuall = document.getElementById('language');
-const listIdioms = document.getElementById('languages');
-const idioms = document.querySelectorAll('.option');
+        const listIdioms = document.getElementById('languages');
+        const idioms = document.querySelectorAll('.option');
 
-idiomActuall.addEventListener('click', () => {
-    listIdioms.classList.toggle('toggle');
-})
-        
+        idiomActuall.addEventListener('click', () => {
+            listIdioms.classList.toggle('toggle');
+        });
+
+        const optionsArray = Array.from(idioms);
+        optionsArray.forEach(() =>{
+            
+        })
     });
 }
 

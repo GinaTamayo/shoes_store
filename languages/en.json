@@ -5,13 +5,141 @@
             "image": "./image/712tEKMrhRL._AC_SX500_.jpg",
             "name": "tennis adidas",
             "price": "$90.00",
-            "button": "Add to Cart"
+            "button": "Add to Cart",
+            "category": "tennis"
         },
         {
-            "image": "./image/712tEKMrhRL._AC_SX500_.jpg",
-            "name": "tennis adidas",
-            "price": "$90.00",
-            "button": "Add to Cart"
+            "image": "./image/nike-shoes.jpg",
+            "name": "Nike Running Shoes",
+            "price": "$120.00",
+            "button": "Add to Cart",
+            "category": "Running"
+        },
+        {
+            "image": "./image/puma-sneakers.jpg",
+            "name": "Puma Sneakers",
+            "price": "$80.00",
+            "button": "Add to Cart",
+            "category": "Casual"
+        },
+        {
+            "image": "./image/adidas-football.jpg",
+            "name": "Adidas Football Cleats",
+            "price": "$75.00",
+            "button": "Add to Cart",
+            "category": "Football"
+        },
+        {
+            "image": "./image/new-balance-walking.jpg",
+            "name": "New Balance Walking Shoes",
+            "price": "$70.00",
+            "button": "Add to Cart",
+            "category": "Walking"
+        },
+        {
+            "image": "./image/reebok-crossfit.jpg",
+            "name": "Reebok Crossfit Shoes",
+            "price": "$110.00",
+            "button": "Add to Cart",
+            "category": "Crossfit"
+        },
+        {
+            "image": "./image/converse-casual.jpg",
+            "name": "Converse Casual Sneakers",
+            "price": "$65.00",
+            "button": "Add to Cart",
+            "category": "Casual"
+        },
+        {
+            "image": "./image/asics-volleyball.jpg",
+            "name": "Asics Volleyball Shoes",
+            "price": "$95.00",
+            "button": "Add to Cart",
+            "category": "Volleyball"
+        },
+        {
+            "image": "./image/sketchers-walking.jpg",
+            "name": "Sketchers Walking Shoes",
+            "price": "$55.00",
+            "button": "Add to Cart",
+            "category": "Walking"
+        },
+        {
+            "image": "./image/under-armour-basketball.jpg",
+            "name": "Under Armour Basketball Shoes",
+            "price": "$100.00",
+            "button": "Add to Cart",
+            "category": "Basketball"
+        },
+        {       
+            "image": "./image/saucony-running.jpg",
+            "name": "Saucony Running Shoes",
+            "price": "$85.00",
+            "button": "Add to Cart",
+            "category": "Running"
+        },
+        {
+            "image": "./image/merrell-hiking.jpg",
+            "name": "Merrell Hiking Boots",
+            "price": "$130.00",
+            "button": "Add to Cart",
+            "category": "Hiking"
+        },
+        {
+            "image": "./image/vans-skate.jpg",
+            "name": "Vans Skate Shoes",
+            "price": "$60.00",
+            "button": "Add to Cart",
+            "category": "Skateboarding"
+        },
+        {
+            "image": "./image/under-armour-soccer.jpg",
+            "name": "Under Armour Soccer Cleats",
+            "price": "$85.00",
+            "button": "Add to Cart",
+            "category": "Soccer"
+        },
+        {
+            "image": "./image/brooks-running.jpg",
+            "name": "Brooks Running Shoes",
+            "price": "$110.00",
+            "button": "Add to Cart",
+            "category": "Running"
+        },
+        {
+            "image": "./image/salomon-trail.jpg",
+            "name": "Salomon Trail Running Shoes",
+            "price": "$140.00",
+            "button": "Add to Cart",
+            "category": "Trail Running"
+        },
+        {
+            "image": "./image/asics-tennis.jpg",
+            "name": "Asics Tennis Shoes",
+            "price": "$95.00",
+            "button": "Add to Cart",
+            "category": "Tennis"
+        },
+        {
+            "image": "./image/nike-golf.jpg",
+            "name": "Nike Golf Shoes",
+            "price": "$110.00",
+            "button": "Add to Cart",
+            "category": "Golf"
+        },
+        {
+            "image": "./image/converse-high-top.jpg",
+            "name": "Converse High Top Sneakers",
+            "price": "$70.00",
+            "button": "Add to Cart",
+            "category": "Casual"
+        },
+        {
+            "image": "./image/under-armour-football.jpg",
+            "name": "Under Armour Football Cleats",
+            "price": "$80.00",
+            "button": "Add to Cart",
+            "category": "Football"
         }
     ]
 }
