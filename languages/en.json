@@ -1,0 +1,18 @@
+{
+    "title": "Shoe Store",
+    "products":[
+        {
+            "image": "./image/712tEKMrhRL._AC_SX500_.jpg",
+            "name": "tennis adidas",
+            "price": "$90.00",
+            "button": "Add to Cart"
+        },
+        {
+            "image": "./image/712tEKMrhRL._AC_SX500_.jpg",
+            "name": "tennis adidas",
+            "price": "$90.00",
+            "button": "Add to Cart"
+        }
+    ]
+}
+

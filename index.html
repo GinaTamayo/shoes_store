@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Shoe Store</title>
 </head>
-<body>
-    <header>SHOES STORE</header>
-    <div id="container-card">
-        <div>
-            <div><img src="" alt=""></div>
-            <p class="price"></p>
-            <p>Talla</p>
-        </div>
+<body onload="loadLanguage('en')">
+    <header>
+        <h1 id="store-title"></h1>
+        <button onclick="loadLanguage('en')">English</button>
+        <button onclick="loadLanguage('es')">Español</button>
+    </header>
+    <div class="translate">
+        <a href="#" id="lenguage" class="lenguage">
+            <img src="" alt="icon-lenguage">
+            <img src="./icons/flecha-hacia-abajo.png" alt="icon-botton">
+        </a>
+        <ul id="languages" class="languages">
+            <li class="option">
+                <a href="#">
+                    <img src="./icons/colombia.png" alt="icon-lenguage">
+                    <span id="spanish"></span>
+                </a>
+            </li>
+            <li class="option">
+                <a href="#">
+                    <img src="./icons/estados-unidos.png" alt="icon-lenguage">
+                    <span id="english"></span>
+                </a>
+            </li>
+        </ul>
     </div>
+
+    <div id="container-card"></div>
+
+    <script src="index.js"></script>
 </body>
 </html>

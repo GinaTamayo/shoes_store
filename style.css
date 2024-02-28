@@ -1,0 +1,52 @@
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.translate{
+    display: flex;
+    justify-content: end;
+    width: 95%;
+    margin: auto;
+}
+.translate img{
+    width: 16px;
+}
+.lenguage{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 10px;
+    position: relative;
+}
+.lenguage:hover{
+    background-color: rgb(228, 228, 228);
+}
+.lenguages{
+    position: absolute;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    visibility: hidden;
+}
+.lenguages li{
+    width: 100%;
+}
+.translate li a{
+    display: block;
+    padding: 10px;
+    font-size: 10px;
+    color: rgb(85, 85, 85);
+}
+.lenguages li a :hover{
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.toggle{
+    visibility: visible;
+}
