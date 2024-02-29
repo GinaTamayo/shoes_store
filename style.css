@@ -26,7 +26,7 @@ a{
 .lenguage:hover{
     background-color: rgb(228, 228, 228);
 }
-.lenguages{
+.languages{
     position: absolute;
     top: 160px;
     display: flex;
@@ -34,7 +34,7 @@ a{
     margin-left: 9px;
     visibility: hidden;
 }
-.lenguages li{
+.languages li{
     width: 100%;
 }
 .translate li a{
@@ -43,10 +43,13 @@ a{
     font-size: 10px;
     color: rgb(85, 85, 85);
 }
-.lenguages li a :hover{
+.languages li a :hover{
     border: 1px solid rgb(219, 219, 219);
 }
 
-.toggle{
-    visibility: visible;
+.toggle {
+    visibility: visible; /* Para mostrar el menú desplegable */
 }
+
+
+

@@ -11,18 +11,25 @@ function loadLanguage(lang) {
         container.innerHTML = '';
         createCards(data);
 
-        const idiomActuall = document.getElementById('language');
-        const listIdioms = document.getElementById('languages');
-        const idioms = document.querySelectorAll('.option');
+        const languageLink = document.getElementById('lenguage');
+        const languagesList = document.getElementById('languages');
 
-        idiomActuall.addEventListener('click', () => {
-            listIdioms.classList.toggle('toggle');
+        languageLink.addEventListener('click', () => {
+            languagesList.classList.toggle('toggle');
         });
 
-        const optionsArray = Array.from(idioms);
-        optionsArray.forEach(() =>{
+        //const idioms = document.querySelectorAll('.option');
+
+        
+
+        //const optionsArray = Array.from(idioms);
+        //optionsArray.forEach(() =>{
             
-        })
+        //})
+
+       
+
+    
     });
 }
 
