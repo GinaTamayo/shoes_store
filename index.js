@@ -1,7 +1,8 @@
 
 
 const container = document.getElementById('container-card');
-
+const english = document.getElementById('english');
+const spanish = document.getElementById('spanish');
 function loadLanguage(lang) {
     fetch('languages/' + lang + '.json')
     .then(response => response.json())
@@ -17,6 +18,10 @@ function loadLanguage(lang) {
         languageLink.addEventListener('click', () => {
             languagesList.classList.toggle('toggle');
         });
+
+        english.textContent = data.EEUU;
+        spanish.textContent = data.colombia;
+       
 
         //const idioms = document.querySelectorAll('.option');
 
@@ -45,6 +50,10 @@ function createCards(data) {
         const img = document.createElement('img');
         img.src = product.image;
         img.alt = 'Product Image';
+        img.classList.add('imgProduct');
+
+        const containerInfo = document.createElement('div');
+        containerInfo.classList.add('container-info');
 
         const name = document.createElement('h2');
         name.textContent = product.name;
@@ -54,12 +63,14 @@ function createCards(data) {
 
         const button = document.createElement('button');
         button.textContent = product.button;
+        button.classList.add('addBag')
 
         containerImg.appendChild(img);
         card.appendChild(containerImg);
-        card.appendChild(name);
-        card.appendChild(price);
-        card.appendChild(button);
+        containerInfo.appendChild(name);
+        containerInfo.appendChild(price);
+        containerInfo.appendChild(button);
+        card.appendChild(containerInfo);
 
         container.appendChild(card);
     });

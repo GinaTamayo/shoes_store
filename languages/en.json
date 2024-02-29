@@ -1,19 +1,24 @@
 {
     "title": "Shoe Store",
+    
+        
+    "EEUU": "English",
+    "colombia": "Spanish",
+
     "products":[
         {
-            "image": "./image/712tEKMrhRL._AC_SX500_.jpg",
-            "name": "tennis adidas",
-            "price": "$90.00",
+            "image": "./image/tennis.webp",
+            "name": "Tenis Jean Debby",
+            "price": "$189.90",
             "button": "Add to Cart",
             "category": "tennis"
         },
         {
-            "image": "./image/nike-shoes.jpg",
-            "name": "Nike Running Shoes",
-            "price": "$120.00",
+            "image": "./image/sandalias blancas.webp",
+            "name": "Sandalia tacon marfil marisa",
+            "price": "$229.90",
             "button": "Add to Cart",
-            "category": "Running"
+            "category": "sandalias"
         },
         {
             "image": "./image/puma-sneakers.jpg",
@@ -51,11 +56,11 @@
             "category": "Casual"
         },
         {
-            "image": "./image/asics-volleyball.jpg",
-            "name": "Asics Volleyball Shoes",
-            "price": "$95.00",
+            "image": "./image/sandalias blancas.webp",
+            "name": "Sandalia tacon marfil marisa",
+            "price": "$229.90",
             "button": "Add to Cart",
-            "category": "Volleyball"
+            "category": "sandalias"
         },
         {
             "image": "./image/sketchers-walking.jpg",
@@ -86,9 +91,9 @@
             "category": "Hiking"
         },
         {
-            "image": "./image/vans-skate.jpg",
-            "name": "Vans Skate Shoes",
-            "price": "$60.00",
+            "image": "./image/sandalia tacon negro.webp",
+            "name": "Sandalia tacon negro lili",
+            "price": "$289.90.00",
             "button": "Add to Cart",
             "category": "Skateboarding"
         },
@@ -140,6 +145,14 @@
             "price": "$80.00",
             "button": "Add to Cart",
             "category": "Football"
+        }
+    ],
+    "categorys":[
+        {
+            "button1": "tennis",
+            "button2": "",
+            "button3": "",
+            "button4": ""
         }
     ]
 }
