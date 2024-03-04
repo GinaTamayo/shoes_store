@@ -10,7 +10,7 @@
             "image": "./image/tennis.webp",
             "name": "Tenis Jean Debby",
             "price": "$189.90",
-            "button": "Add to Cart",
+            "button": "Add to Cart", 
             "category": "tennis"
         },
         {

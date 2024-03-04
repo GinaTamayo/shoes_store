@@ -1,10 +1,12 @@
 {
     "title": "Tienda de Zapatos",
-    "productos":[
+    "EEUU": "Inglés",
+    "colombia": "Español",
+    "products":[
         {
             "imagen": "./imagen/712tEKMrhRL._AC_SX500_.jpg",
             "name": "Tenis adidas",
-            "precio": "$90.00",
+            "price": "$90.00",
             "button": "Agregar al Carrito",
             "category": "tenis"
         },

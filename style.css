@@ -150,3 +150,7 @@ a{
 .addBag{
     cursor: pointer;
 }
+
+.filtro{
+    display: none;
+}

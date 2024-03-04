@@ -1,9 +1,10 @@
-
-
 const container = document.getElementById('container-card');
-const english = document.getElementById('english');
-const spanish = document.getElementById('spanish');
-function loadLanguage(lang) {
+const languages = document.getElementById('languages');
+const search = document.getElementById('seeker');
+const languageLink = document.getElementById('lenguage');
+const languagesList = document.getElementById('languages');
+
+function loadLanguage(lang) { 
     fetch('languages/' + lang + '.json')
     .then(response => response.json())
     .then(data => {
@@ -12,29 +13,24 @@ function loadLanguage(lang) {
         container.innerHTML = '';
         createCards(data);
 
-        const languageLink = document.getElementById('lenguage');
-        const languagesList = document.getElementById('languages');
-
-        languageLink.addEventListener('click', () => {
-            languagesList.classList.toggle('toggle');
-        });
-
-        english.textContent = data.EEUU;
-        spanish.textContent = data.colombia;
-       
-
-        //const idioms = document.querySelectorAll('.option');
-
+        
+        languageLink.querySelector('img').src = `./icons/${lang}.png`;
         
 
-        //const optionsArray = Array.from(idioms);
-        //optionsArray.forEach(() =>{
-            
-        //})
 
-       
+        
+        languageLink.addEventListener('click', () => {
+            if (languagesList.classList.contains('toggle')) {
+                languagesList.classList.remove('toggle');
+            } else {
+                languagesList.classList.add('toggle');
+            }
+        });
 
-    
+        const english = document.getElementById('english');
+        const spanish = document.getElementById('spanish');
+        english.textContent = data.EEUU;
+        spanish.textContent = data.colombia;
     });
 }
 
@@ -57,13 +53,17 @@ function createCards(data) {
 
         const name = document.createElement('h2');
         name.textContent = product.name;
+        name.classList.add('name');
+
+        card.setAttribute('data-category', product.category);
 
         const price = document.createElement('p');
         price.textContent = product.price;
+        price.classList.add('price');
 
         const button = document.createElement('button');
         button.textContent = product.button;
-        button.classList.add('addBag')
+        button.classList.add('addBag');
 
         containerImg.appendChild(img);
         card.appendChild(containerImg);
@@ -73,5 +73,19 @@ function createCards(data) {
         card.appendChild(containerInfo);
 
         container.appendChild(card);
+    });
+}
+
+search.addEventListener('input', seeker);
+function seeker() {
+    const searchTerm = this.value.toLowerCase();
+    document.querySelectorAll(".card").forEach(card => {
+        const title = card.querySelector(".name").textContent.toLowerCase();
+        const category = card.getAttribute("data-category").toLowerCase();
+        if (title.includes(searchTerm) || category.includes(searchTerm)) {
+            card.classList.remove("filtro");
+        } else {
+            card.classList.add("filtro");
+        }
     });
 }
