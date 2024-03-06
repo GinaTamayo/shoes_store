@@ -1,154 +1,127 @@
 {
-    "title": "Tienda de Zapatos",
+    "title": "Lastick",
     "EEUU": "Inglés",
     "colombia": "Español",
-    "products":[
+
+    "shoes": "Zapatos",
+    "accesories": "Accesorios",
+    "clothes": "Ropa",
+    "handbags": "Bolsos",
+    "placeholder": "buscar producto",
+
+    "products": [
         {
-            "imagen": "./imagen/712tEKMrhRL._AC_SX500_.jpg",
-            "name": "Tenis adidas",
-            "price": "$90.00",
+            "image": "./image/tennis.webp",
+            "name": "Tenis Jean para mujer Debby",
+            "price": "$189.90",
             "button": "Agregar al Carrito",
             "category": "tenis"
         },
         {
-            "imagen": "./imagen/712tEKMrhRL._AC_SX500_.jpg",
-            "name": "Tenis adidas",
-            "precio": "$90.00",
+            "image": "./image/sandalias blancas.webp",
+            "name": "Sandalia Tacón Marfil Marisa",
+            "price": "$229.90",
+            "button": "Agregar al Carrito",
+            "category": "tacones"
+        },
+        {
+            "image": "./image/sandalia plana negra Sammy.webp",
+            "name": "sandalia plana negra Sammy",
+            "price": "$99.90",
+            "button": "Agregar al Carrito",
+            "category": "sandalia plana"
+        },
+        {
+            "image": "./image/zueco plano negro Chiara.webp",
+            "name": "Zueco Plano Negro Chiara",
+            "price": "$175.90",
+            "button": "Agregar al Carrito",
+            "category": "zuecos"
+        },
+        {
+            "image": "./image/sandalia tacon plata Alani.webp",
+            "name": "Sandalia Tacon plata Alani",
+            "price": "$249.90",
+            "button": "Agregar al Carrito",
+            "category": "tacones"
+        },
+        {
+            "image": "./image/Spadrilla plataforma beige para mujer kiri.webp",
+            "name": "Spadrilla plataforma Beige Kiri",
+            "price": "$199.90",
             "button": "Agregar al Carrito",
             "category": "tenis"
         },
         {
-            "imagen": "./imagen/nike-shoes.jpg",
-            "name": "Zapatos para Correr Nike",
-            "precio": "$120.00",
+            "image": "./image/tenis Plata Missy.jpg",
+            "name": "Tenis Plata para mujer Missy",
+            "price": "$199.90",
             "button": "Agregar al Carrito",
-            "category": "Running"
+            "category": "tenis"
         },
         {
-            "imagen": "./imagen/puma-sneakers.jpg",
-            "name": "Zapatillas Puma",
-            "precio": "$80.00",
+            "image": "./image/sandalia plana marfil Lizette.webp",
+            "name": "Sandalia Plana Marfil Lizette",
+            "price": "$55.00",
             "button": "Agregar al Carrito",
-            "category": "Casual"
+            "category": "sandalias planas"
         },
         {
-            "imagen": "./imagen/adidas-football.jpg",
-            "name": "Tacos de Fútbol Adidas",
-            "precio": "$75.00",
+            "image": "./image/Zueco spadrilla negro para mujer Cleo.webp",
+            "name": "Zueco Spadrilla Negro Cleo",
+            "price": "$100.00",
             "button": "Agregar al Carrito",
-            "category": "Football"
+            "category": "zuecos"
         },
         {
-            "imagen": "./imagen/new-balance-walking.jpg",
-            "name": "Zapatos para Caminar New Balance",
-            "precio": "$70.00",
+            "image": "./image/bota negra para mujer Leigh.webp",
+            "name": "Bota Negra para mujer Leigh",
+            "price": "$99.90",
             "button": "Agregar al Carrito",
-            "category": "Walking"
+            "category": "Botas"
         },
         {
-            "imagen": "./imagen/reebok-crossfit.jpg",
-            "name": "Zapatos Reebok Crossfit",
-            "precio": "$110.00",
+            "image": "./image/Spadrilla Plataforma Marfil Fiona.webp",
+            "name": "Spadrilla Plataforma Marfil Fiona",
+            "price": "$130.00",
             "button": "Agregar al Carrito",
-            "category": "Crossfit"
+            "category": "sandalias"
         },
         {
-            "imagen": "./imagen/converse-casual.jpg",
-            "name": "Zapatillas Casuales Converse",
-            "precio": "$65.00",
+            "image": "./image/sandalia tacon negro.webp",
+            "name": "Sandalia Tacón Negro Lili",
+            "price": "$289.90",
             "button": "Agregar al Carrito",
-            "category": "Casual"
+            "category": "tacones"
         },
         {
-            "imagen": "./imagen/asics-volleyball.jpg",
-            "name": "Zapatos de Voleibol Asics",
-            "precio": "$95.00",
+            "image": "./image/Spadrilla plataforma negra kiri.webp",
+            "name": "Spadrilla Plataforma Marfil Fiona",
+            "price": "$130.00",
             "button": "Agregar al Carrito",
-            "category": "Volleyball"
+            "category": "sandalias"
         },
         {
-            "imagen": "./imagen/sketchers-walking.jpg",
-            "name": "Zapatos para Caminar Sketchers",
-            "precio": "$55.00",
+            "image": "./image/bota negra para mujer Britt.webp",
+            "name": "Bota Negra para mujer Britt",
+            "price": "$249.90",
             "button": "Agregar al Carrito",
-            "category": "Walking"
+            "category": "Botas"
         },
         {
-            "imagen": "./imagen/under-armour-basketball.jpg",
-            "name": "Zapatos de Baloncesto Under Armour",
-            "precio": "$100.00",
+            "image": "./image/tenis fila.webp",
+            "name": "Tenis para hombre Fila",
+            "price": "$110.00",
             "button": "Agregar al Carrito",
-            "category": "Basketball"
-        },
-        {       
-            "imagen": "./imagen/saucony-running.jpg",
-            "name": "Zapatos para Correr Saucony",
-            "precio": "$85.00",
-            "button": "Agregar al Carrito",
-            "category": "Running"
+            "category": "tenis"
         },
         {
-            "imagen": "./imagen/merrell-hiking.jpg",
-            "name": "Botas de Senderismo Merrell",
-            "precio": "$130.00",
+            "image": "./image/tenis negros para mujer Galia.webp",
+            "name": "Tenis Negros para mujer Galia",
+            "price": "$99.90",
             "button": "Agregar al Carrito",
-            "category": "Hiking"
-        },
-        {
-            "imagen": "./imagen/vans-skate.jpg",
-            "name": "Zapatos de Skate Vans",
-            "precio": "$60.00",
-            "button": "Agregar al Carrito",
-            "category": "Skateboarding"
-        },
-        {
-            "imagen": "./imagen/under-armour-soccer.jpg",
-            "name": "Tacos de Fútbol Under Armour",
-            "precio": "$85.00",
-            "button": "Agregar al Carrito",
-            "category": "Soccer"
-        },
-        {
-            "imagen": "./imagen/brooks-running.jpg",
-            "name": "Zapatos para Correr Brooks",
-            "precio": "$110.00",
-            "button": "Agregar al Carrito",
-            "category": "Running"
-        },
-        {
-            "imagen": "./imagen/salomon-trail.jpg",
-            "name": "Zapatos de Trail Running Salomon",
-            "precio": "$140.00",
-            "button": "Agregar al Carrito",
-            "category": "Trail Running"
-        },
-        {
-            "imagen": "./imagen/asics-tennis.jpg",
-            "name": "Zapatos de Tenis Asics",
-            "precio": "$95.00",
-            "button": "Agregar al Carrito",
-            "category": "Tennis"
-        },
-        {
-            "imagen": "./imagen/nike-golf.jpg",
-            "name": "Zapatos de Golf Nike",
-            "precio": "$110.00",
-            "button": "Agregar al Carrito",
-            "category": "Golf"
-        },
-        {
-            "imagen": "./imagen/converse-high-top.jpg",
-            "name": "Zapatillas Altas Casuales Converse",
-            "precio": "$70.00",
-            "button": "Agregar al Carrito",
-            "category": "Casual"
-        },
-        {
-            "imagen": "./imagen/under-armour-football.jpg",
-            "name": "Tacos de Fútbol Americano Under Armour",
-            "precio": "$80.00",
-            "button": "Agregar al Carrito",
-            "category": "Football"
+            "category": "tenis"
         }
-    ]
+    ],
+    "footer": "Todos los derechos reservados."
 }

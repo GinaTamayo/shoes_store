@@ -4,11 +4,20 @@ const search = document.getElementById('seeker');
 const languageLink = document.getElementById('lenguage');
 const languagesList = document.getElementById('languages');
 
+
+
 function loadLanguage(lang) { 
     fetch('languages/' + lang + '.json')
     .then(response => response.json())
     .then(data => {
         document.getElementById('store-title').textContent = data.title;
+        document.getElementById('shoes').textContent = data.shoes;
+        document.getElementById('clothes').textContent = data.clothes;
+        document.getElementById('accesories').textContent = data.accesories;
+        document.getElementById('handbags').textContent = data.handbags;
+        document.getElementById('footer').textContent = data.footer;
+
+        document.getElementById('seeker').placeholder = data.placeholder;
 
         container.innerHTML = '';
         createCards(data);
@@ -20,11 +29,7 @@ function loadLanguage(lang) {
 
         
         languageLink.addEventListener('click', () => {
-            if (languagesList.classList.contains('toggle')) {
-                languagesList.classList.remove('toggle');
-            } else {
-                languagesList.classList.add('toggle');
-            }
+            languagesList.classList.toggle('toggle');
         });
 
         const english = document.getElementById('english');

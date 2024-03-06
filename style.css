@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -24,10 +25,18 @@
     justify-content: space-around;
     align-items: center;
 }
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #ffffffe6; /* Updated header background color */
+    transition: background-color 0.5s ease; /* Added transition */
+}
 
 header h1{
     text-align: center;
     font-size: 60px;
+    margin-left: 8px;
 }
 
 .container-bag-flags{
@@ -50,6 +59,9 @@ ul{
 a{
     text-decoration: none;
 }
+a:hover{
+    color: rgb(16, 169, 169);
+}
 .translate{
     display: flex;
     justify-content: end;
@@ -57,7 +69,7 @@ a{
     margin: auto;
 }
 .translate img{
-    width: 16px;
+    width: 20px;
 }
 .lenguage{
     display: flex;
@@ -77,34 +89,45 @@ a{
     flex-direction: column;
     margin-left: 9px;
     visibility: hidden;
+    justify-content: center;
+    align-items: center;
 }
 .languages li{
     width: 100%;
 }
 .translate li a{
     display: block;
-    padding: 10px;
-    font-size: 10px;
+    padding: 10px 10px 10px 9%;
+    font-size: 12px;
     color: rgb(85, 85, 85);
 }
 .languages li a :hover{
     border: 1px solid rgb(219, 219, 219);
 }
-
-.icon-lenguage{
-    border-radius: 50px;
+.translate li a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    border-radius: 50%;    
 }
 
+.option .lang{
+    display: flex;
+    align-items: center;
+}
+
+
 .toggle {
-    visibility: visible; /* Para mostrar el menú desplegable */
+    visibility: visible; 
 }
 
 .container-card{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
+    justify-content: center;
     justify-items: center;
-    padding: 70px;
+    padding: 250px 70px 70px 70px;
     margin: 0;
 }
 
@@ -113,7 +136,7 @@ a{
 /*estilos de la crad*/
 .card{
     margin: 40px;
-    width: 240px;
+    width: 260px;
     height: 500px;
     border-radius: 10px;
     padding: 10px 10px 0 10px;
@@ -147,8 +170,23 @@ a{
     margin-bottom: 0;
 }
 
+input{
+    padding: 3px 6px;
+}
 .addBag{
     cursor: pointer;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    background-color: white;
+}
+
+footer{
+    padding: 30px 0 30px 30px;
+    justify-content: left;
+    background-color: rgba(16, 16, 54, 0.778);
+    color: white;
 }
 
 .filtro{
