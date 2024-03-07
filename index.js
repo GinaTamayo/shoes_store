@@ -5,6 +5,14 @@ const languageLink = document.getElementById('lenguage');
 const languagesList = document.getElementById('languages');
 
 
+languageLink.addEventListener('click', () => {
+    languagesList.classList.toggle('toggle');
+});
+
+container.addEventListener('click', () => {
+    languagesList.classList.remove('toggle');
+});
+
 
 function loadLanguage(lang) { 
     fetch('languages/' + lang + '.json')
@@ -28,9 +36,7 @@ function loadLanguage(lang) {
 
 
         
-        languageLink.addEventListener('click', () => {
-            languagesList.classList.toggle('toggle');
-        });
+        
 
         const english = document.getElementById('english');
         const spanish = document.getElementById('spanish');

@@ -2,49 +2,126 @@
     "title": "Lastick",
     "EEUU": "English",
     "colombia": "Spanish",
-    "placeholder": "search products",
 
     "shoes": "Shoes",
-    "accesories": "Accesories",
+    "accesories": "Accessories",
     "clothes": "Clothes",
     "handbags": "Handbags",
+    "placeholder": "Search Product",
+
     "products": [
         {
             "image": "./image/tennis.webp",
-            "name": "Jean Debby Tennis Shoes",
+            "name": "Jean Tennis for Women Debby",
             "price": "$189.90",
             "button": "Add to Cart",
             "category": "tennis"
         },
         {
             "image": "./image/sandalias blancas.webp",
-            "name": "Marisa Ivory High Heel Sandal",
+            "name": "Marisa Ivory Heel Sandal",
             "price": "$229.90",
+            "button": "Add to Cart",
+            "category": "heels"
+        },
+        {
+            "image": "./image/sandalia plana negra Sammy.webp",
+            "name": "Black Flat Sandal Sammy",
+            "price": "$99.90",
+            "button": "Add to Cart",
+            "category": "flat sandals"
+        },
+        {
+            "image": "./image/zueco plano negro Chiara.webp",
+            "name": "Black Flat Clog Chiara",
+            "price": "$175.90",
+            "button": "Add to Cart",
+            "category": "clogs"
+        },
+        {
+            "image": "./image/sandalia tacon plata Alani.webp",
+            "name": "Silver Heel Sandal Alani",
+            "price": "$249.90",
+            "button": "Add to Cart",
+            "category": "heels"
+        },
+        {
+            "image": "./image/Spadrilla plataforma beige para mujer kiri.webp",
+            "name": "Beige Platform Espadrille Kiri",
+            "price": "$199.90",
+            "button": "Add to Cart",
+            "category": "sandals clogs"
+        },
+        {
+            "image": "./image/tenis Plata Missy.jpg",
+            "name": "Silver Tennis for Women Missy",
+            "price": "$199.90",
+            "button": "Add to Cart",
+            "category": "tennis"
+        },
+        {
+            "image": "./image/sandalia plana marfil Lizette.webp",
+            "name": "Ivory Flat Sandal Lizette",
+            "price": "$55.00",
+            "button": "Add to Cart",
+            "category": "flat sandals"
+        },
+        {
+            "image": "./image/Zueco spadrilla negro para mujer Cleo.webp",
+            "name": "Black Cleo Espadrille Clog",
+            "price": "$100.00",
+            "button": "Add to Cart",
+            "category": "clogs"
+        },
+        {
+            "image": "./image/bota negra para mujer Leigh.webp",
+            "name": "Black Women's Leigh Boot",
+            "price": "$99.90",
+            "button": "Add to Cart",
+            "category": "boots"
+        },
+        {
+            "image": "./image/Spadrilla Plataforma Marfil Fiona.webp",
+            "name": "Ivory Fiona Espadrille",
+            "price": "$130.00",
+            "button": "Add to Cart",
+            "category": "sandals clogs"
+        },
+        {
+            "image": "./image/sandalia tacon negro.webp",
+            "name": "Black Heel Sandal Lili",
+            "price": "$289.90",
+            "button": "Add to Cart",
+            "category": "heels"
+        },
+        {
+            "image": "./image/Spadrilla plataforma negra kiri.webp",
+            "name": "Black Platform Espadrille Fiona",
+            "price": "$130.00",
             "button": "Add to Cart",
             "category": "sandals"
         },
         {
-            "image": "./image/puma-sneakers.jpg",
-            "name": "Puma Sneakers",
-            "price": "$80.00",
+            "image": "./image/bota negra para mujer Britt.webp",
+            "name": "Black Women's Britt Boot",
+            "price": "$249.90",
             "button": "Add to Cart",
-            "category": "Casual"
+            "category": "boots"
         },
         {
-            "image": "./image/adidas-football.jpg",
-            "name": "Adidas Football Cleats",
-            "price": "$75.00",
+            "image": "./image/tenis fila.webp",
+            "name": "Fila Men's Tennis",
+            "price": "$110.00",
             "button": "Add to Cart",
-            "category": "Football"
-        }
-    ],
-    "categories": [
+            "category": "tennis"
+        },
         {
-            "button1": "tennis",
-            "button2": "",
-            "button3": "",
-            "button4": ""
+            "image": "./image/tenis negros para mujer Galia.webp",
+            "name": "Black Women's Galia Tennis",
+            "price": "$99.90",
+            "button": "Add to Cart",
+            "category": "tennis"
         }
     ],
-    "footer": "All rights reserved"
+    "footer": "All rights reserved."
 }

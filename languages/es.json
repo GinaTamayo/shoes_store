@@ -26,7 +26,7 @@
         },
         {
             "image": "./image/sandalia plana negra Sammy.webp",
-            "name": "sandalia plana negra Sammy",
+            "name": "Sandalia negra Sammy",
             "price": "$99.90",
             "button": "Agregar al Carrito",
             "category": "sandalia plana"
@@ -47,10 +47,10 @@
         },
         {
             "image": "./image/Spadrilla plataforma beige para mujer kiri.webp",
-            "name": "Spadrilla plataforma Beige Kiri",
+            "name": "Spadrilla Beige Kiri",
             "price": "$199.90",
             "button": "Agregar al Carrito",
-            "category": "tenis"
+            "category": "sandalias"
         },
         {
             "image": "./image/tenis Plata Missy.jpg",
@@ -82,7 +82,7 @@
         },
         {
             "image": "./image/Spadrilla Plataforma Marfil Fiona.webp",
-            "name": "Spadrilla Plataforma Marfil Fiona",
+            "name": "Spadrilla Marfil Fiona",
             "price": "$130.00",
             "button": "Agregar al Carrito",
             "category": "sandalias"
@@ -96,7 +96,7 @@
         },
         {
             "image": "./image/Spadrilla plataforma negra kiri.webp",
-            "name": "Spadrilla Plataforma Marfil Fiona",
+            "name": "Spadrilla Marfil Fiona",
             "price": "$130.00",
             "button": "Agregar al Carrito",
             "category": "sandalias"
